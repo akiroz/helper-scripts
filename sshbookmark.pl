@@ -2,7 +2,7 @@
 
 my $in = 0;
 if(@ARGV == 1) {
-    $in = $1;
+    $in = $ARGV[0];
 } else {
     print
     "1: login to foo\n" .
